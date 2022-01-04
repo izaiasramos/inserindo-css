@@ -1,0 +1,43 @@
+<DOCTYPE html/>
+  <html>
+    <head>
+      <meta charset="utf8"/>
+      <title>inserindo o css</title>
+    </head>
+    <body>
+      <h2>Treine CSS</h2>
+
+      <p><strong>CSS INLINE:</strong> é adicionado na linha que deseja adicionar o css,alterando assim o html,mais especificamente,ele é adicionado na abertura da tag desejada.</p>
+
+      <strong><p>tag h1 no html sem css:</strong> < h 1 >treine CSS< /h1 ></p>
+
+      <strong>Veremos asseguir um exemplo de css inline:</strong> 
+
+      <p>< h1 style=color:red> treine CSS < /h1></p>
+
+      <pre>O css é inserido na abertura da tag < h 1 >  </pre>
+
+      <strong>Mas para o usuário,na web vai aparecer assim:</strong>
+      <h1 style=color:red>Treine CSS</h1>
+      <hr/>
+      <p><strong>CSS INTERNO:</strong>é declarado/colocado dentro do head,veja um exemplo asseguir:
+      <ol>
+         <li>< head > </li> 
+         <li>  < style ></li>
+         <li>    h1  {color:blue; fonte-size:15px}</li> 
+         <li>    pre { <br/> </li>
+         <li>    color:green;<br/> </li>
+         <li>    fonte-size:30px; </li>
+         <li>    } </li>
+         <li> < /style ></li>
+         <li>< /head > </li>
+      </ol></p>
+      <p>Dentro do style coloco e organizo meu css,da maneira que achar mais fácil e legível,primeiro coloco o nome da tag html que desejo alterar,depois abro e fecho colchetes {....} dentro do colchetes será desenvolvido o css,como vimos no exemplo acima.</p>
+      <hr/>
+      <p><strong>CSS EXTERNO:</strong>No css externo,é feito uma pasta separada somente para o css,para vincular essa pasta á nossa pasta html,e para que o html leia e desenvolva tudo oque estiver na outra pasta,é feito uma linkagem dentro do head (configuração) do html,ou seja,é feito um link da sua pasta css para que o html localize e vincule tudo,ficaria assim:<br/>
+      <strong>< link rel="stylesheet" href="nome da pasta.css"/></strong> <br/>
+      assim o html importa os dados da pasta externa para vincular tudo</p>
+
+    </body>
+  </html>
+
